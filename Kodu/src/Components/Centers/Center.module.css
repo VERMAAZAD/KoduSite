@@ -1,0 +1,103 @@
+body {
+  overflow-x: hidden;
+}
+.imgBox img {
+  width: 80%;
+  border-radius: 10px;
+  margin: 20% 0% 10% 0%;
+}
+
+.section1 {
+  margin: 5% 0%;
+}
+.MessagesBox {
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.MessagesBox h1 {
+  font-weight: 700;
+}
+.MessagesBox p {
+  margin: 30px 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.MessagesBox button {
+  background-color: #002dff;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+}
+.section2 {
+  padding: 100px 0px;
+  background-color: white;
+}
+.ContactUs {
+  padding-bottom: 100px;
+}
+.ContactUs div {
+  font-size: 25px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MapSection {
+  display: flex;
+  align-items: center;
+}
+.MapSection iframe {
+  border-radius: 20px;
+}
+.MapSection h4 {
+  font-weight: 700;
+  margin-left: 20px;
+}
+.MapSection p {
+  margin: 30px 0px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.CourseImg {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.CourseImg img {
+  width: 50px;
+  height: 48px;
+}
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 5%;
+}
+.section3 h2 {
+  margin-bottom: 5%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+}
+.section3 iframe {
+  width: 80%;
+  height: 400px;
+}
+@media screen and (max-width: 576px) {
+  .section3 iframe {
+    width: 80%;
+    height: 300px;
+  }
+}
+.section3 p {
+  text-align: center;
+  width: 75%;
+  font-weight: 470;
+  font-size: 18px;
+  color: black;
+  margin-top: 5%;
+}
